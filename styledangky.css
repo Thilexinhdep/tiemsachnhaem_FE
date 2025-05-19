@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-image: url('Hình/background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  overflow: hidden;
+  width: 1040px;
+  height: 628px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.logo-box {
+  background-color: rgba(26, 50, 41, 0.8);
+  color: white;
+  padding: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-box img {
+  width: 366px;
+  margin-bottom: 15px;
+}
+
+.logo-box h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.form-box {
+  flex: 2;
+  padding: 40px;
+}
+
+.form-box h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-box p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.form-box h4 {
+  margin-bottom: 5px;
+}
+
+.form-box input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form-box button {
+  width: 100%;
+  padding: 14px;
+  background-color: #86A788;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background-color: #6f8f70;
+}
+
+.login-link {
+  color: #86A788;
+  text-align: left;
+  font-size: 14px;
+}
